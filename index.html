@@ -81,10 +81,20 @@
           IMPEKABLE
         </h1>
       </div>
-      <div class="c-app__topbar"></div>
+      <div class="c-app__topbar">
+        <label class="c-searchknop" for="searchbar">
+          <svg class="c-icon"><use xlink:href="#c-search-Icon"></use></svg><span class="name"></span>
+        </label>
+        <input class="c-searchbar" type="text" name="search" id="searchbar" placeholder="Search transactions, invoices or help" />
+        <form>
+          <button class="c-searchknop">
+            <svg class="c-icon"><use xlink:href="#c-support"></use></svg><span class="name"></span>
+          </button>
+        </form>
+      </div>
       <div class="c-app__sidebar">
-        <nav>
-          <ul class="o-list">
+        <nav class="c-sidebar-nav">
+          <ul class="o-list c-sidebar-list">
             <li class="c-list-link">
               <a class="c-sidebar_link" href="#">
                 <svg class="c-icon"><use xlink:href="#c-house"></use></svg><span class="name"></span>
